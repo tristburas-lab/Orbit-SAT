@@ -1,0 +1,53 @@
+{
+  "id": "/",
+  "name": "Orbit \u2014 SAT practice, with momentum",
+  "short_name": "Orbit SAT",
+  "description": "500 original SAT-style questions, adaptive practice, and daily wins. No API keys needed.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0c0f18",
+  "theme_color": "#0c0f18",
+  "lang": "en",
+  "categories": [
+    "education",
+    "games"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "My study plan",
+      "short_name": "Study plan",
+      "url": "/plan/"
+    },
+    {
+      "name": "Rules, formulas & tips",
+      "short_name": "Study guide",
+      "url": "/guide/"
+    },
+    {
+      "name": "Tutor dashboard",
+      "short_name": "Tutor",
+      "url": "/tutor/"
+    }
+  ]
+}
