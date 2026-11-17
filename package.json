@@ -1,0 +1,16 @@
+{
+  "name": "orbit-sat",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-bank.mjs",
+    "check": "node scripts/validate.mjs && node scripts/features-check.mjs && node scripts/pwa-check.mjs",
+    "test:pwa": "node scripts/pwa-check.mjs",
+    "test:dom": "node scripts/dom-check.mjs && node scripts/features-dom-check.mjs",
+    "check:features": "node scripts/features-check.mjs",
+    "test:features-dom": "node scripts/features-dom-check.mjs",
+    "test:qr": "node scripts/qr-check.mjs",
+    "release": "python3 scripts/prepare-release.py"
+  }
+}
